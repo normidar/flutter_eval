@@ -173,4 +173,7 @@ class $Text implements Text, $Instance {
 
   @override
   String? get semanticsIdentifier => $value.semanticsIdentifier;
+
+  @override
+  Hyphens? get hyphens => $value.hyphens;
 }
